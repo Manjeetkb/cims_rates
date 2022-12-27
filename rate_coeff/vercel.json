@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "ratecal/wsgi.py",
+        "src": "rate_coeff/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "Python 3.8.10" }
       },
@@ -21,7 +21,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "ratecal/wsgi.py"
+        "dest": "rate_coeff/wsgi.py"
       }
     ]
   }
