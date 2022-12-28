@@ -5,9 +5,9 @@ from django.shortcuts import render
 import math
 from math import *
 from django import forms
-import pandas as pd
-import sys
-sys.path
+#import pandas as pd
+#import sys
+#sys.path
 
 
 # Create your views here.
