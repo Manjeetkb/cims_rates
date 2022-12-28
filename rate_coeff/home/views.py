@@ -3,10 +3,9 @@ from telnetlib import DM
 from django.http import HttpResponse
 from django.shortcuts import render
 import math
-from math import*
+from math import *
 from django import forms
 import pandas as pd
-import numpy as np
 
 # Create your views here.
 
